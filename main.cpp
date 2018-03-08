@@ -60,6 +60,7 @@ int main(int argc, char **argv)
 
     try
     {
+        //std::cout<<"mResourcePath is:"<<app.mResourcePath<<std::endl;
         app.go();
     }
     catch( Exception& e )
